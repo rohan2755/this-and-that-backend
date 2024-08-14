@@ -20,25 +20,25 @@ const PORT = 8000 || process.env.PORT
 
 const events = [
     {
-        question : 'BCC Spartan to have a 1st wicket partnership of 85 or more runs vs CC Akademik - Sofia?',
-        correctAns : 'No'
+        question : 'Will Southern Brave win the match ?',
+        correctAns : 'Yes'
 
     },
     {
-        question : 'Anas Khan to score 20 or more runs vs Global Stars?',
-        correctAns : 'No'
+        question : 'Will Welsh Fire hit more boundaries ?',
+        correctAns : 'Yes'
     },
     {
-        question : 'CC Akademik - Sofia to take 2 or more wickets at the end of 6 overs vs BCC Spartan?',
-        correctAns : 'No'
+        question : 'Will Alex Davis score more runs than Stephen Eskinazi ?',
+        correctAns : 'Yes'
     },
     {
-        question : 'Sofia ?',
-        correctAns : 'No'
+        question : 'Will Like Wood concede more runs than David Wiley ?',
+        correctAns : 'Yes'
     },
     {
-        question : 'BD Lions to have a 5th wicket partnership of 25 or more runs vs Global Stars?',
-        correctAns : 'No'
+        question : 'Will Southern Brave score 25 runs faster than Welsh Fire',
+        correctAns : 'Yes'
     }
 ]
 
