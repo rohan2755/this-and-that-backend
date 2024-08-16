@@ -7,7 +7,12 @@ const userSchema = new mongoose.Schema({
     },
     correctAns: {
         type: String,
-    }
+    },
+    options : [
+        {
+            type: String
+        }
+    ]
 });
 
 const Event = mongoose.model('Event', userSchema);

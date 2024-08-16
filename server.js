@@ -21,24 +21,29 @@ const PORT = 8000 || process.env.PORT
 const events = [
     {
         question : 'Will Southern Brave win the match ?',
-        correctAns : 'Yes'
+        correctAns : 'Yes',
+        options : ['qwe','rty']
 
     },
     {
         question : 'Will Welsh Fire hit more boundaries ?',
-        correctAns : 'Yes'
+        correctAns : 'Yes',
+        options : ['uio','pas']
     },
     {
         question : 'Will Alex Davis score more runs than Stephen Eskinazi ?',
-        correctAns : 'Yes'
+        correctAns : 'Yes',
+        options : ['dfg','hjk']
     },
     {
         question : 'Will Like Wood concede more runs than David Wiley ?',
-        correctAns : 'Yes'
+        correctAns : 'Yes',
+        options : ['lzx','cvb']
     },
     {
         question : 'Will Southern Brave score 25 runs faster than Welsh Fire',
-        correctAns : 'Yes'
+        correctAns : 'Yes',
+        options : ['nm','qwe']
     }
 ]
 
